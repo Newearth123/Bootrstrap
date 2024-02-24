@@ -1,0 +1,102 @@
+/* Base styles that apply to all menus */
+
+.center{
+	padding: 0em auto;
+	margin: 05em auto ;
+}
+
+@media screen and (min-width: 52em){
+
+	.center{
+		max-width: 52em;
+	}
+
+
+
+.super{
+	background-color: rgb(221, 221, 221);
+	text-align: center;
+	padding: 40px;
+	font-size: 30px;}
+	
+
+.menu ul {
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: hsl(0, 0%, 0%);
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+}
+
+.menu li a:hover {
+	background: hsl(0, 0%, 25%);
+}
+
+
+.menusection ul{
+	display: flex;
+	background: hsl(0, 0%, 25%);
+}
+
+
+.menusection ul li a:hover{ 
+	background-color: red;
+}
+
+.addmenu ul{
+	padding: 0px;
+	margin: 38px 0 0 0;
+	text-align: left;
+	background: hsl(0, 0%, 0%);
+	list-style-type: none;
+}
+
+
+.addmenu ul li {
+	padding: .7em 1em;
+}
+
+
+.addmenu ul li a{	
+	text-decoration: none;
+	color: white;	
+}
+
+.addmenu ul li:hover{
+	background-color: rgb(85, 85, 85);
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.advtext{
+	margin: 80px 0 0 0;
+}
+
+.iconmenu{
+	position: absolute;
+	padding: 20px;
+}
+
+
+.addmenu ul{
+	display:flex;	
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.addmenu ul li{
+	flex: 1 0 3em;
+}
+
+
+}
+
+
+
