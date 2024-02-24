@@ -1,0 +1,137 @@
+/* Base styles that apply to all menus */
+/*
+.addone ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: hsl(0, 0%, 15%);
+}
+
+.addone li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+}
+
+.addone li a:hover {
+	background: hsl(0, 0%, 25%);
+} */
+
+
+h1{
+	
+	font-size: 28px;
+}
+
+.addone{
+	text-align: left;
+}
+
+
+.addone ul{
+	padding: 0px;
+	margin: 0px 0 0 0;
+	background-color: rgb(2, 2, 2);
+	list-style-type: none;
+}
+
+.addone ul li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+}
+
+.addone ul li a:hover{
+	background-color: rgb(85, 85, 85);
+}
+
+
+
+
+
+
+
+.navdrop ul{
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	list-style-type: none;
+	display: block;	
+}
+
+
+.navdrop ul li a{
+	background-color: black;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: .82em 1em;
+}
+	
+.navdrop ul li a:hover{
+	background-color: rgb(114, 114, 114);
+	display: block;
+	color: rgb(243, 243, 243);
+}
+	
+.subnav{
+	
+	display: none;
+}
+
+
+.dropdown{
+	margin: 0;
+	padding: 0 .5em;
+	border: 0;
+	font-family: 'FontAwesome';
+	background-color:transparent;
+}
+
+.dropdown:after {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 42px;
+	color: white;
+	content: "\f107";
+	line-height: 1em;	
+	background-color: transparent;
+}
+
+.dropdown:after:hover{
+	display: block;
+}
+
+
+.next{
+	display: block;
+	font-size: .7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+	/*.dropdown-tog:after {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 42px;
+		color: white;
+		content: "\f107";
+		line-height: 1em;	
+	}
+
+	.dropdown-toggle:hover,
+	.dropdown-toggle:focus {
+		background: hsl(0, 0%, 25%);
+	}*/
